@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "codeLogin": "验证码登录",
+    "qrcodeLogin": "二维码登录",
+    "forgetPassword": "忘记密码",
+    "profile": "个人中心"
+  },
+  "common": {
+    "enabled": "启用",
+    "disabled": "禁用"
+  },
+  "dashboard": {
+    "title": "概览",
+    "analytics": "分析页",
+    "workspace": "工作台"
+  },
+  "organization": {
+    "title": "组织管理",
+    "contact": {
+      "title": "联系人管理",
+      "name": "联系人",
+      "sid": "联系人ID",
+      "type": "类型",
+      "typeEmployee": "员工",
+      "typeCustomer": "客户",
+      "typePartner": "合作伙伴",
+      "typeVisitor": "访客",
+      "sourceId": "来源ID",
+      "sourceIdPlaceholder": "请输入来源ID（关联实体表）",
+      "status": "状态",
+      "description": "描述",
+      "descriptionPlaceholder": "请输入描述说明",
+      "keyword": "关键词",
+      "keywordPlaceholder": "请输入关键词搜索",
+      "createTime": "创建时间",
+      "operation": "操作"
+    }
+  }
+}

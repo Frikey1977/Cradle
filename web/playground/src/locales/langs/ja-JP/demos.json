@@ -1,0 +1,72 @@
+{
+  "title": "デモ",
+  "access": {
+    "frontendPermissions": "フロントエンド権限",
+    "backendPermissions": "バックエンド権限",
+    "pageAccess": "ページアクセス",
+    "buttonControl": "ボタン制御",
+    "menuVisible403": "メニュー表示(403)",
+    "superVisible": "スーパーに表示",
+    "adminVisible": "管理者に表示",
+    "userVisible": "ユーザーに表示"
+  },
+  "nested": {
+    "title": "ネストメニュー",
+    "menu1": "メニュー 1",
+    "menu2": "メニュー 2",
+    "menu2_1": "メニュー 2-1",
+    "menu3": "メニュー 3",
+    "menu3_1": "メニュー 3-1",
+    "menu3_2": "メニュー 3-2",
+    "menu3_2_1": "メニュー 3-2-1"
+  },
+  "outside": {
+    "title": "外部ページ",
+    "embedded": "埋め込み",
+    "externalLink": "外部リンク"
+  },
+  "badge": {
+    "title": "メニューバッジ",
+    "dot": "ドットバッジ",
+    "text": "テキストバッジ",
+    "color": "バッジ色"
+  },
+  "activeIcon": {
+    "title": "アクティブメニューアイコン",
+    "children": "子アクティブアイコン"
+  },
+  "fallback": {
+    "title": "フォールバックページ"
+  },
+  "features": {
+    "title": "機能",
+    "hideChildrenInMenu": "メニュー子非表示",
+    "loginExpired": "ログイン期限切れ",
+    "icons": "アイコン",
+    "watermark": "ウォーターマーク",
+    "tabs": "タブ",
+    "tabDetail": "タブ詳細ページ",
+    "fullScreen": "全画面",
+    "clipboard": "クリップボード",
+    "menuWithQuery": "クエリ付きメニュー",
+    "openInNewWindow": "新しいウィンドウで開く",
+    "fileDownload": "ファイルダウンロード"
+  },
+  "breadcrumb": {
+    "navigation": "パンくずナビゲーション",
+    "lateral": "横モード",
+    "lateralDetail": "横モード詳細",
+    "level": "レベルモード",
+    "levelDetail": "レベルモード詳細"
+  },
+  "vben": {
+    "title": "プロジェクト",
+    "about": "について",
+    "document": "ドキュメント",
+    "antdv": "Ant Design Vue バージョン",
+    "antdv-next": "Antdv Next バージョン",
+    "naive-ui": "Naive UI バージョン",
+    "element-plus": "Element Plus バージョン",
+    "tdesign": "TDesign Vue バージョン"
+  }
+}

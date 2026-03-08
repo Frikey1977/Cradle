@@ -1,0 +1,74 @@
+{
+  "$schema": "./src/gateway/config-schema.json",
+  "name": "Cradle Gateway",
+  "version": "1.0.0",
+  "master": {
+    "port": 3000,
+    "workerCount": 4,
+    "heartbeatTimeout": 30000,
+    "maxQueueSize": 10000,
+    "webhookPathPrefix": "/webhook"
+  },
+  "channels": [
+    {
+      "id": "webui-1",
+      "name": "WebUI Channel",
+      "type": "webui",
+      "enabled": true,
+      "config": {
+        "wsPath": "/ws",
+        "heartbeatInterval": 30000,
+        "connectionTimeout": 60000
+      }
+    },
+    {
+      "id": "dingtalk-1",
+      "name": "DingTalk Channel",
+      "type": "dingtalk",
+      "enabled": false,
+      "config": {
+        "appKey": "your-app-key",
+        "appSecret": "your-app-secret",
+        "callbackPath": "/webhook/dingtalk",
+        "enableSignature": true
+      },
+      "credentials": {
+        "appKey": "${DINGTALK_APP_KEY}",
+        "appSecret": "${DINGTALK_APP_SECRET}"
+      }
+    }
+  ],
+  "agents": [
+    {
+      "id": "default-agent",
+      "name": "Default Agent",
+      "enabled": true,
+      "config": {
+        "modelProvider": "openai",
+        "modelName": "gpt-4",
+        "temperature": 0.7,
+        "maxTokens": 2000,
+        "systemPrompt": "You are a helpful assistant."
+      }
+    }
+  ],
+  "routing": {
+    "defaultAgentId": "default-agent",
+    "strangerPolicy": "auto_create",
+    "rules": [
+      {
+        "condition": "channelType == 'webui'",
+        "agentId": "default-agent"
+      },
+      {
+        "condition": "channelType == 'dingtalk'",
+        "agentId": "default-agent"
+      }
+    ]
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "output": "console"
+  }
+}

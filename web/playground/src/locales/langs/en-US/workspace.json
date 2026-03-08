@@ -1,0 +1,22 @@
+{
+  "title": "Workspace",
+  "moduleName": "Command Center",
+  "messageCenter": "Messages",
+  "analytics": "Analytics",
+  "monitor": "Monitor",
+  "chat": {
+    "title": "Chat",
+    "selectAgent": "Select Agent",
+    "startChat": "Start Chat",
+    "inputPlaceholder": "Type a message...",
+    "send": "Send",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "debugPanel": "Debug Panel",
+    "channel": "Channel",
+    "identity": "Identity",
+    "userName": "User Name",
+    "metadata": "Metadata"
+  }
+}

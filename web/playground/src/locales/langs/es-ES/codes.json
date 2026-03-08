@@ -1,0 +1,117 @@
+{
+  "moduleName": "Gestión de Códigos",
+  "system": {
+    "codes": {
+      "title": "Códigos",
+      "type": {
+        "title": "Tipo",
+        "module": "Módulo",
+        "function": "Función",
+        "code": "Código",
+        "value": "Valor"
+      },
+      "status": {
+        "title": "Estado",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "title": "Sistema",
+    "modules": {
+      "title": "Módulos",
+      "type": {
+        "title": "Tipo",
+        "module": "Módulo",
+        "function": "Función",
+        "action": "Acción",
+        "embedded": "Incrustado",
+        "link": "Enlace"
+      },
+      "status": {
+        "title": "Estado",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "roles": {
+      "title": "Roles",
+      "status": {
+        "disabled": "Deshabilitado",
+        "enabled": "Habilitado",
+        "title": "Estado"
+      }
+    }
+  },
+  "organization": {
+    "title": "Organización",
+    "departments": {
+      "title": "Departamentos",
+      "type": {
+        "title": "Tipo",
+        "company": "Empresa",
+        "branch": "Sucursal",
+        "department": "Departamento",
+        "group": "Grupo"
+      },
+      "status": {
+        "title": "Estado",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "location": {
+        "title": "Ubicación",
+        "Suzhou": "Suzhou",
+        "Shenzhen": "Shenzhen"
+      }
+    },
+    "employees": {
+      "title": "Empleados",
+      "type": {
+        "title": "Tipo",
+        "full-time": "Tiempo completo",
+        "part-time": "Medio tiempo",
+        "outsourcing": "Subcontratación"
+      },
+      "status": {
+        "title": "Estado",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "suspend": "Suspendido",
+        "retired": "Jubilado",
+        "rehired": "Recontratado"
+      }
+    },
+    "positions": {
+      "title": "Posiciones",
+      "level": {
+        "title": "Nivel",
+        "vision": "Visión",
+        "strategy": "Estrategia",
+        "campaign": "Campaña",
+        "tactics": "Táctica",
+        "execution": "Ejecución"
+      },
+      "scope": {
+        "title": "Alcance",
+        "all": "Todo",
+        "organization": "Organización",
+        "department": "Departamento",
+        "group": "Grupo",
+        "self": "Propio"
+      },
+      "status": {
+        "title": "Estado",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "type": {
+        "title": "Tipo",
+        "human": "Humano",
+        "robot": "Robot"
+      }
+    },
+    "agents": {
+      "title": "Agentes"
+    }
+  }
+}

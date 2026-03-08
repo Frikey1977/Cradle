@@ -1,0 +1,20 @@
+{
+  "moduleName": "ページ",
+  "auth": {
+    "moduleName": "認証",
+    "login": "ログイン",
+    "register": "登録",
+    "codeLogin": "コードログイン",
+    "qrcodeLogin": "QRコードログイン",
+    "forgetPassword": "パスワード忘れ",
+    "sendingCode": "SMSコード送信中...",
+    "codeSentTo": "コードが{0}に送信されました",
+    "profile": "プロフィール"
+  },
+  "dashboard": {
+    "moduleName": "ダッシュボード",
+    "title": "概要",
+    "analytics": "分析",
+    "workspace": "ワークスペース"
+  }
+}

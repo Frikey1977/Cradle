@@ -1,0 +1,18 @@
+{
+  "title": "Espacio de trabajo",
+  "chat": {
+    "title": "Chat",
+    "selectAgent": "Seleccionar agente",
+    "startChat": "Iniciar chat",
+    "inputPlaceholder": "Escribe un mensaje...",
+    "send": "Enviar",
+    "connecting": "Conectando...",
+    "connected": "Conectado",
+    "disconnected": "Desconectado",
+    "debugPanel": "Panel de depuración",
+    "channel": "Canal",
+    "identity": "Identidad",
+    "userName": "Nombre de usuario",
+    "metadata": "Metadatos"
+  }
+}

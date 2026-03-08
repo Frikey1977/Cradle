@@ -1,0 +1,268 @@
+{
+  "moduleName": "Code Management",
+  "system": {
+    "codes": {
+      "title": "Codes",
+      "type": {
+        "title": "Type",
+        "module": "Module",
+        "function": "Function",
+        "code": "Code",
+        "value": "Value"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "metadata": "Metadata"
+    },
+    "title": "System",
+    "modules": {
+      "title": "Modules",
+      "type": {
+        "title": "Type",
+        "module": "Module",
+        "function": "Function",
+        "action": "Action",
+        "embedded": "Embedded",
+        "link": "Link"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "roles": {
+      "title": "Roles",
+      "status": {
+        "disabled": "Disabled",
+        "enabled": "Enabled",
+        "title": "Status"
+      }
+    },
+    "channels": {
+      "title": "Channels",
+      "client": {
+        "title": "Client",
+        "cradle": "Cradle",
+        "dingtalk": "Dingtalk",
+        "wechat": "Wechat",
+        "lark": "Lark",
+        "Slack": "Slack",
+        "slack": "Slack",
+        "discord": "Discord",
+        "telegram": "Telegram",
+        "whatsApp": "WhatsApp"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "contacts": {
+      "title": "Contacts",
+      "type": {
+        "title": "Type",
+        "employee": "Employee",
+        "customer": "Customer",
+        "partner": "Partner",
+        "visitor": "Visitor"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "source": {
+        "title": "Source",
+        "openclaw": "Openclaw",
+        "upload": "Upload",
+        "github": "Github",
+        "clawhub": "Clawhub"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "type": {
+        "title": "Type",
+        "catalog": "Catalog",
+        "skill": "Skill"
+      }
+    }
+  },
+  "organization": {
+    "title": "Organization",
+    "departments": {
+      "title": "Departments",
+      "type": {
+        "title": "Type",
+        "company": "Company",
+        "branch": "Branch",
+        "department": "Department",
+        "group": "Group"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "location": {
+        "title": "Location",
+        "Suzhou": "Suzhou",
+        "Shenzhen": "Shenzhen",
+        "Guangzhou": "Guangzhou"
+      }
+    },
+    "employees": {
+      "title": "Employees",
+      "type": {
+        "title": "Type",
+        "full-time": "Full-time",
+        "part-time": "Part-time",
+        "outsourcing": "Outsourcing"
+      },
+      "status": {
+        "title": "Status",
+        "active": "Active",
+        "inactive": "Inactive",
+        "suspend": "Suspend",
+        "retired": "Retired",
+        "rehired": "Rehired"
+      }
+    },
+    "positions": {
+      "title": "Positions",
+      "level": {
+        "title": "Level",
+        "vision": "Vision",
+        "strategy": "Strategy",
+        "campaign": "Campaign",
+        "tactics": "Tactics",
+        "execution": "Execution"
+      },
+      "scope": {
+        "title": "Scope",
+        "all": "All",
+        "organization": "Organization",
+        "department": "Department",
+        "group": "Group",
+        "self": "Self"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "type": {
+        "title": "Type",
+        "human": "Human",
+        "agent": "Agent"
+      }
+    },
+    "agents": {
+      "title": "Agents",
+      "pattern": {
+        "title": "Pattern",
+        "exclusive": "Exclusive",
+        "shared": "Shared",
+        "public": "Public",
+        "department": "Department",
+        "guard": "Guard"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    }
+  },
+  "llm": {
+    "title": "Llm",
+    "providers": {
+      "title": "Providers",
+      "subscribe": {
+        "title": "Subscribe",
+        "usage": "Usage",
+        "subscription": "Subscription",
+        "Prepaid": "Prepaid",
+        "dedicated": "Dedicated",
+        "privatization": "Privatization",
+        "free": "Free",
+        "prepaid": "Prepaid"
+      },
+      "auth": {
+        "title": "Auth method",
+        "api_key": "Api_key",
+        "api_token": "Api_token"
+      },
+      "directory": {
+        "title": "Directory",
+        "openai": "Openai",
+        "anthropic": "Anthropic",
+        "alibaba": "Alibaba",
+        "google": "Google",
+        "zhipu": "Zhipu",
+        "minimax": "Minimax",
+        "compatible": "Compatible"
+      },
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "config": {
+      "title": "Config",
+      "status": {
+        "title": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "type": {
+        "title": "Type",
+        "standard": "Standard",
+        "proxy": "Proxy",
+        "local": "Local"
+      }
+    },
+    "models": {
+      "title": "Models",
+      "type": {
+        "title": "Type",
+        "text": "Text",
+        "multimodal": "Multimodal",
+        "embedding": "Embedding",
+        "image": "Image",
+        "code": "Code",
+        "text2speech": "Text2speech",
+        "speech2text": "Speech2text"
+      },
+      "thinking": {
+        "title": "Thinking",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "stream": {
+        "title": "Stream",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "ability": {
+        "title": "Ability",
+        "visualComprehension": "VisualComprehension",
+        "deepThinking": "DeepThinking",
+        "textGeneration": "TextGeneration",
+        "imageGeneration": "ImageGeneration",
+        "speechSynthesis": "SpeechSynthesis",
+        "textEmbedding": "TextEmbedding",
+        "multiEmbedding": "MultiEmbedding",
+        "realtimeSpeach": "RealtimeSpeach",
+        "realtimeSpeech": "RealtimeSpeech",
+        "speechRecognition": "SpeechRecognition"
+      }
+    }
+  }
+}

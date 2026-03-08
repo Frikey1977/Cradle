@@ -1,0 +1,265 @@
+{
+  "moduleName": "代码管理",
+  "system": {
+    "codes": {
+      "title": "代码管理",
+      "type": {
+        "title": "类型",
+        "module": "模块",
+        "function": "功能",
+        "code": "代码",
+        "value": "码值"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "title": "系统管理",
+    "modules": {
+      "title": "模块管理",
+      "type": {
+        "title": "类型",
+        "module": "模块",
+        "function": "功能",
+        "action": "动作",
+        "embedded": "内嵌",
+        "link": "外链"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "roles": {
+      "status": {
+        "title": "状态"
+      },
+      "title": "角色管理"
+    },
+    "channels": {
+      "title": "通道管理",
+      "client": {
+        "title": "即时通讯客户端",
+        "cradle": "摇篮",
+        "dingtalk": "钉钉",
+        "wechat": "微信",
+        "lark": "飞书",
+        "Slack": "Slack",
+        "slack": "Slack",
+        "discord": "Discord",
+        "telegram": "Telegram",
+        "whatsApp": "WhatsApp"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "contacts": {
+      "title": "联系人",
+      "type": {
+        "title": "类型",
+        "employee": "员工",
+        "customer": "客户",
+        "partner": "合作伙伴",
+        "visitor": "访客"
+      }
+    },
+    "skills": {
+      "title": "技能管理",
+      "source": {
+        "title": "来源",
+        "openclaw": "Openclaw",
+        "upload": "本地上传",
+        "github": "Github",
+        "clawhub": "Clawhub"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "type": {
+        "title": "类型",
+        "catalog": "目录",
+        "skill": "技能"
+      }
+    }
+  },
+  "organization": {
+    "title": "组织管理",
+    "departments": {
+      "title": "部门管理",
+      "type": {
+        "title": "类型",
+        "company": "公司",
+        "branch": "分支",
+        "department": "部门",
+        "group": "班组"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "location": {
+        "title": "地点",
+        "Suzhou": "苏州",
+        "Shenzhen": "深圳",
+        "Guangzhou": "广州"
+      }
+    },
+    "employees": {
+      "title": "员工管理",
+      "type": {
+        "title": "类型",
+        "full-time": "全职",
+        "part-time": "兼职",
+        "outsourcing": "外包"
+      },
+      "status": {
+        "title": "状态",
+        "active": "在职",
+        "inactive": "离职",
+        "suspend": "停职",
+        "retired": "退休",
+        "rehired": "返聘"
+      }
+    },
+    "positions": {
+      "title": "岗位设置",
+      "level": {
+        "title": "层级",
+        "vision": "愿景",
+        "strategy": "战略",
+        "campaign": "战役",
+        "tactics": "战术",
+        "execution": "执行"
+      },
+      "scope": {
+        "title": "数据权限",
+        "all": "全部",
+        "organization": "组织",
+        "department": "部门",
+        "group": "班组",
+        "self": "自己"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "type": {
+        "title": "类型",
+        "human": "人类员工",
+        "agent": "数字员工"
+      }
+    },
+    "agents": {
+      "title": "数字员工",
+      "pattern": {
+        "title": "工作模式",
+        "exclusive": "专属",
+        "shared": "共享",
+        "public": "公共",
+        "department": "部门",
+        "guard": "守卫"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    }
+  },
+  "llm": {
+    "title": "大模型管理",
+    "providers": {
+      "title": "模型提供商",
+      "subscribe": {
+        "title": "订阅方式",
+        "usage": "用量",
+        "subscription": "订阅",
+        "Prepaid": "预付费",
+        "dedicated": "独占部署",
+        "privatization": "私有部署",
+        "free": "免费",
+        "prepaid": "预付费"
+      },
+      "auth": {
+        "title": "认证方式",
+        "api_key": "Key",
+        "api_token": "Token"
+      },
+      "directory": {
+        "title": "名录",
+        "openai": "OpenAI",
+        "anthropic": "Anthropic",
+        "alibaba": "Ali Qwen",
+        "google": "Google",
+        "zhipu": "Zhipu AI",
+        "minimax": "MiniMax",
+        "compatible": "OpenAI 兼容"
+      },
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "config": {
+      "title": "配置管理",
+      "status": {
+        "title": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "type": {
+        "title": "类型",
+        "standard": "标准",
+        "proxy": "代理",
+        "local": "本地"
+      }
+    },
+    "models": {
+      "title": "模型属性",
+      "type": {
+        "title": "模型分类",
+        "text": "文本",
+        "multimodal": "多模态",
+        "embedding": "嵌入模型",
+        "image": "图像模型",
+        "code": "编码模型",
+        "text2speech": "文本转语音",
+        "speech2text": "语音转文本"
+      },
+      "thinking": {
+        "title": "思考模式开关",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "stream": {
+        "title": "流式输出开关",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "ability": {
+        "title": "模型能力",
+        "visualComprehension": "视觉理解",
+        "deepThinking": "深度思考",
+        "textGeneration": "文本生成",
+        "imageGeneration": "图片生成",
+        "speechSynthesis": "语音合成",
+        "textEmbedding": "文本向量",
+        "multiEmbedding": "多模向量",
+        "realtimeSpeach": "实时语音",
+        "realtimeSpeech": "实时语音",
+        "speechRecognition": "语音识别"
+      }
+    }
+  }
+}

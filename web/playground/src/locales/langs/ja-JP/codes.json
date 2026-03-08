@@ -1,0 +1,117 @@
+{
+  "moduleName": "コード管理",
+  "system": {
+    "codes": {
+      "title": "コード",
+      "type": {
+        "title": "タイプ",
+        "module": "モジュール",
+        "function": "機能",
+        "code": "コード",
+        "value": "値"
+      },
+      "status": {
+        "title": "ステータス",
+        "enabled": "有効",
+        "disabled": "無効"
+      }
+    },
+    "title": "システム",
+    "modules": {
+      "title": "モジュール",
+      "type": {
+        "title": "タイプ",
+        "module": "モジュール",
+        "function": "機能",
+        "action": "アクション",
+        "embedded": "埋め込み",
+        "link": "リンク"
+      },
+      "status": {
+        "title": "ステータス",
+        "enabled": "有効",
+        "disabled": "無効"
+      }
+    },
+    "roles": {
+      "title": "ロール",
+      "status": {
+        "disabled": "無効",
+        "enabled": "有効",
+        "title": "ステータス"
+      }
+    }
+  },
+  "organization": {
+    "title": "組織",
+    "departments": {
+      "title": "部署",
+      "type": {
+        "title": "タイプ",
+        "company": "会社",
+        "branch": "支社",
+        "department": "部署",
+        "group": "グループ"
+      },
+      "status": {
+        "title": "ステータス",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "location": {
+        "title": "勤務地",
+        "Suzhou": "蘇州",
+        "Shenzhen": "深セン"
+      }
+    },
+    "employees": {
+      "title": "従業員",
+      "type": {
+        "title": "タイプ",
+        "full-time": "正社員",
+        "part-time": "パートタイム",
+        "outsourcing": "外注"
+      },
+      "status": {
+        "title": "ステータス",
+        "active": "在職",
+        "inactive": "離職",
+        "suspend": "休職",
+        "retired": "退職",
+        "rehired": "再雇用"
+      }
+    },
+    "positions": {
+      "title": "役職",
+      "level": {
+        "title": "レベル",
+        "vision": "ビジョン",
+        "strategy": "戦略",
+        "campaign": "キャンペーン",
+        "tactics": "戦術",
+        "execution": "実行"
+      },
+      "scope": {
+        "title": "範囲",
+        "all": "すべて",
+        "organization": "組織",
+        "department": "部署",
+        "group": "グループ",
+        "self": "自分"
+      },
+      "status": {
+        "title": "ステータス",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "type": {
+        "title": "タイプ",
+        "human": "人間",
+        "robot": "ロボット"
+      }
+    },
+    "agents": {
+      "title": "エージェント"
+    }
+  }
+}

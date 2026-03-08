@@ -1,0 +1,83 @@
+{
+  "title": "例",
+  "modal": {
+    "title": "モーダル"
+  },
+  "drawer": {
+    "title": "ドロワー"
+  },
+  "ellipsis": {
+    "title": "省略テキスト"
+  },
+  "form": {
+    "title": "フォーム",
+    "basic": "基本フォーム",
+    "layout": "カスタムレイアウト",
+    "query": "検索フォーム",
+    "rules": "フォームルール",
+    "dynamic": "動的フォーム",
+    "custom": "カスタムコンポーネント",
+    "api": "API",
+    "merge": "マージフォーム",
+    "scrollToError": "エラーフィールドにスクロール",
+    "upload-error": "一部のファイルアップロードに失敗",
+    "upload-urls": "ファイルアップロード後のURL",
+    "file": "ファイル",
+    "crop-image": "画像切り抜き",
+    "upload-image": "画像をアップロード"
+  },
+  "vxeTable": {
+    "title": "Vxe テーブル",
+    "basic": "基本テーブル",
+    "remote": "リモート読み込み",
+    "tree": "ツリーテーブル",
+    "fixed": "固定ヘッダー/列",
+    "virtual": "仮想スクロール",
+    "editCell": "セル編集",
+    "editRow": "行編集",
+    "custom-cell": "カスタムセル",
+    "form": "フォームテーブル"
+  },
+  "captcha": {
+    "title": "キャプチャ",
+    "pointSelection": "ポイント選択キャプチャ",
+    "sliderCaptcha": "スライダーキャプチャ",
+    "sliderRotateCaptcha": "回転キャプチャ",
+    "sliderTranslateCaptcha": "移動キャプチャ",
+    "captchaCardTitle": "セキュリティ検証を完了してください",
+    "pageDescription": "画像内の特定の位置をクリックしてユーザーIDを検証します。",
+    "pageTitle": "キャプチャコンポーネント例",
+    "basic": "基本使用法",
+    "titlePlaceholder": "キャプチャタイトルテキスト",
+    "captchaImageUrlPlaceholder": "キャプチャ画像（imgタグsrc属性値をサポート）",
+    "hintImage": "ヒント画像",
+    "hintText": "ヒントテキスト",
+    "hintImagePlaceholder": "ヒント画像（imgタグsrc属性値をサポート）",
+    "hintTextPlaceholder": "ヒントテキスト",
+    "showConfirm": "確認表示",
+    "hideConfirm": "確認非表示",
+    "widthPlaceholder": "キャプチャ画像幅 デフォルト300px",
+    "heightPlaceholder": "キャプチャ画像高さ デフォルト220px",
+    "paddingXPlaceholder": "水平パディング デフォルト12px",
+    "paddingYPlaceholder": "垂直パディング デフォルト16px",
+    "index": "インデックス:",
+    "timestamp": "タイムスタンプ:",
+    "x": "x:",
+    "y": "y:"
+  },
+  "resize": {
+    "title": "リサイズ"
+  },
+  "layout": {
+    "col-page": "ColPage レイアウト"
+  },
+  "button-group": {
+    "title": "ボタングループ"
+  },
+  "function": {
+    "contentMenu": "コンテンツメニュー"
+  },
+  "cropper": {
+    "title": "切り抜き"
+  }
+}

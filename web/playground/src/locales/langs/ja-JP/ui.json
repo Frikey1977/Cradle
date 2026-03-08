@@ -1,0 +1,123 @@
+{
+  "formRules": {
+    "required": "{0}を入力してください",
+    "selectRequired": "{0}を選択してください",
+    "minLength": "{0}は{1}文字以上である必要があります",
+    "maxLength": "{0}は{1}文字以下である必要があります",
+    "length": "{0}は{1}文字である必要があります",
+    "alreadyExists": "{0}「{1}」は既に存在します",
+    "startWith": "{0}は「{1}」で始まる必要があります",
+    "invalidURL": "有効なURLを入力してください",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "invalidFormat": "無効な形式",
+    "sizeLimit": "ファイルサイズは{0}MBを超えることはできません",
+    "previewWarning": "ファイルを開けません。利用可能なURLまたはプレビューアドレスがありません"
+  },
+  "actionTitle": {
+    "edit": "{0}を編集",
+    "create": "{0}を作成",
+    "delete": "{0}を削除",
+    "view": "{0}を表示"
+  },
+  "actionMessage": {
+    "deleteConfirm": "{0}を削除してもよろしいですか？",
+    "deleting": "{0}を削除中...",
+    "deleteSuccess": "{0}を削除しました",
+    "operationSuccess": "操作が成功しました",
+    "operationFailed": "操作が失敗しました"
+  },
+  "placeholder": {
+    "input": "入力してください",
+    "select": "選択してください",
+    "upload": "クリックしてアップロード"
+  },
+  "captcha": {
+    "title": "セキュリティ認証を完了してください",
+    "sliderSuccessText": "認証成功",
+    "sliderDefaultText": "スライダーをドラッグ",
+    "alt": "imgタグのsrc属性値をサポート",
+    "sliderRotateDefaultTip": "画像をクリックして更新",
+    "sliderTranslateDefaultTip": "画像をクリックして更新",
+    "sliderRotateFailTip": "認証に失敗しました",
+    "sliderRotateSuccessTip": "認証に成功しました。所要時間{0}秒",
+    "sliderTranslateFailTip": "認証に失敗しました",
+    "sliderTranslateSuccessTip": "認証に成功しました。所要時間{0}秒",
+    "refreshAriaLabel": "キャプチャを更新",
+    "confirmAriaLabel": "選択を確認",
+    "confirm": "確認",
+    "pointAriaLabel": "ポイントをクリック",
+    "clickInOrder": "順番にクリックしてください"
+  },
+  "iconPicker": {
+    "placeholder": "アイコンを選択",
+    "search": "アイコンを検索..."
+  },
+  "jsonViewer": {
+    "copy": "コピー",
+    "copied": "コピーしました"
+  },
+  "crop": {
+    "title": "画像トリミング",
+    "titleTip": "トリミング比率 {0}",
+    "confirm": "トリミング",
+    "cancel": "トリミングをキャンセル",
+    "errorTip": "トリミングエラー"
+  },
+  "fallback": {
+    "pageNotFound": "ページが見つかりません",
+    "pageNotFoundDesc": "申し訳ありませんが、お探しのページが見つかりませんでした。",
+    "forbidden": "アクセスが拒否されました",
+    "forbiddenDesc": "申し訳ありませんが、このページにアクセスする権限がありません。",
+    "internalError": "エラーが発生しました",
+    "internalErrorDesc": "申し訳ありませんが、サーバーでエラーが発生しました。",
+    "offline": "オフラインページ",
+    "offlineError": "ネットワークエラー",
+    "offlineErrorDesc": "申し訳ありませんが、インターネットに接続できません。接続を確認してください。",
+    "comingSoon": "準備中",
+    "http": {
+      "requestTimeout": "リクエストがタイムアウトしました。後でもう一度お試しください。",
+      "networkError": "ネットワークエラーが発生しました。インターネット接続を確認して、もう一度お試しください。",
+      "badRequest": "不正なリクエストです。入力を確認して、もう一度お試しください。",
+      "unauthorized": "認証されていません。続行するにはログインしてください。",
+      "forbidden": "アクセスが禁止されています。このリソースにアクセスする権限がありません。",
+      "notFound": "見つかりません。要求されたリソースが見つかりませんでした。",
+      "internalServerError": "サーバーエラーが発生しました。しばらくしてからもう一度お試しください。"
+    }
+  },
+  "widgets": {
+    "document": "ドキュメント",
+    "qa": "Q&A",
+    "setting": "設定",
+    "logoutTip": "ログアウトしますか？",
+    "viewAll": "すべてのメッセージを表示",
+    "notifications": "通知",
+    "markAllAsRead": "すべて既読にする",
+    "clearNotifications": "クリア",
+    "checkUpdatesTitle": "新しいバージョンが利用可能",
+    "checkUpdatesDescription": "クリックして更新し、最新バージョンを取得",
+    "search": {
+      "title": "検索",
+      "searchNavigate": "検索ナビゲーション",
+      "select": "選択",
+      "navigate": "ナビゲート",
+      "close": "閉じる",
+      "noResults": "検索結果が見つかりません",
+      "noRecent": "検索履歴がありません",
+      "recent": "検索履歴"
+    },
+    "lockScreen": {
+      "title": "画面ロック",
+      "screenButton": "ロック中",
+      "password": "パスワード",
+      "placeholder": "パスワードを入力してください",
+      "unlock": "クリックして解除",
+      "errorPasswordTip": "パスワードが違います。もう一度入力してください",
+      "backToLogin": "ログインに戻る",
+      "entry": "システムに入る"
+    },
+    "timezone": {
+      "setTimezone": "タイムゾーンを設定",
+      "setSuccess": "タイムゾーンを設定しました"
+    }
+  }
+}

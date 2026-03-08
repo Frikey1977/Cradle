@@ -1,0 +1,41 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "codeLogin": "Code Login",
+    "qrcodeLogin": "Qr Code Login",
+    "forgetPassword": "Forget Password",
+    "profile": "Profile"
+  },
+  "common": {
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "analytics": "Analytics",
+    "workspace": "Workspace"
+  },
+  "organization": {
+    "title": "Organization",
+    "contact": {
+      "title": "Contact Management",
+      "name": "Contact",
+      "sid": "Contact ID",
+      "type": "Type",
+      "typeEmployee": "Employee",
+      "typeCustomer": "Customer",
+      "typePartner": "Partner",
+      "typeVisitor": "Visitor",
+      "sourceId": "Source ID",
+      "sourceIdPlaceholder": "Please enter source ID",
+      "status": "Status",
+      "description": "Description",
+      "descriptionPlaceholder": "Please enter description",
+      "keyword": "Keyword",
+      "keywordPlaceholder": "Please enter keyword to search",
+      "createTime": "Create Time",
+      "operation": "Operation"
+    }
+  }
+}

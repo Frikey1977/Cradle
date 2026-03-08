@@ -1,0 +1,20 @@
+{
+  "moduleName": "Página",
+  "auth": {
+    "moduleName": "Autenticación",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "codeLogin": "Inicio con Código",
+    "qrcodeLogin": "Inicio con Código QR",
+    "forgetPassword": "Olvidé mi Contraseña",
+    "sendingCode": "Enviando código SMS...",
+    "codeSentTo": "Código enviado a {0}",
+    "profile": "Perfil"
+  },
+  "dashboard": {
+    "moduleName": "Panel",
+    "title": "Resumen",
+    "analytics": "Análisis",
+    "workspace": "Espacio de Trabajo"
+  }
+}
