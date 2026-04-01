@@ -1,0 +1,83 @@
+{
+  "title": "Ejemplos",
+  "modal": {
+    "title": "Modal"
+  },
+  "drawer": {
+    "title": "Cajón"
+  },
+  "ellipsis": {
+    "title": "Texto con Elipsis"
+  },
+  "form": {
+    "title": "Formulario",
+    "basic": "Formulario Básico",
+    "layout": "Diseño Personalizado",
+    "query": "Formulario de Búsqueda",
+    "rules": "Reglas de Formulario",
+    "dynamic": "Formulario Dinámico",
+    "custom": "Componente Personalizado",
+    "api": "API",
+    "merge": "Formulario Combinado",
+    "scrollToError": "Desplazar al Campo de Error",
+    "upload-error": "Error al Subir Algunos Archivos",
+    "upload-urls": "URLs después de Subir Archivos",
+    "file": "Archivo",
+    "crop-image": "Recortar Imagen",
+    "upload-image": "Subir Imagen"
+  },
+  "vxeTable": {
+    "title": "Tabla Vxe",
+    "basic": "Tabla Básica",
+    "remote": "Carga Remota",
+    "tree": "Tabla de Árbol",
+    "fixed": "Encabezado/Columna Fija",
+    "virtual": "Desplazamiento Virtual",
+    "editCell": "Editar Celda",
+    "editRow": "Editar Fila",
+    "custom-cell": "Celda Personalizada",
+    "form": "Tabla de Formulario"
+  },
+  "captcha": {
+    "title": "Captcha",
+    "pointSelection": "Captcha de Selección de Puntos",
+    "sliderCaptcha": "Captcha de Deslizador",
+    "sliderRotateCaptcha": "Captcha de Rotación",
+    "sliderTranslateCaptcha": "Captcha de Traslación",
+    "captchaCardTitle": "Por favor complete la verificación de seguridad",
+    "pageDescription": "Haga clic en posiciones específicas en la imagen para verificar el ID de usuario.",
+    "pageTitle": "Ejemplo de Componente Captcha",
+    "basic": "Uso Básico",
+    "titlePlaceholder": "Texto del título del captcha",
+    "captchaImageUrlPlaceholder": "Imagen del captcha (soporta valor de atributo src de etiqueta img)",
+    "hintImage": "Imagen de sugerencia",
+    "hintText": "Texto de sugerencia",
+    "hintImagePlaceholder": "Imagen de sugerencia (soporta valor de atributo src de etiqueta img)",
+    "hintTextPlaceholder": "Texto de sugerencia",
+    "showConfirm": "Mostrar Confirmación",
+    "hideConfirm": "Ocultar Confirmación",
+    "widthPlaceholder": "Ancho de imagen del captcha, predeterminado 300px",
+    "heightPlaceholder": "Altura de imagen del captcha, predeterminado 220px",
+    "paddingXPlaceholder": "Relleno horizontal, predeterminado 12px",
+    "paddingYPlaceholder": "Relleno vertical, predeterminado 16px",
+    "index": "Índice:",
+    "timestamp": "Marca de tiempo:",
+    "x": "x:",
+    "y": "y:"
+  },
+  "resize": {
+    "title": "Redimensionar"
+  },
+  "layout": {
+    "col-page": "Diseño ColPage"
+  },
+  "button-group": {
+    "title": "Grupo de Botones"
+  },
+  "function": {
+    "contentMenu": "Menú de Contenido"
+  },
+  "cropper": {
+    "title": "Recorte"
+  }
+}

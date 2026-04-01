@@ -1,0 +1,16 @@
+node_modules
+dist
+workspace/agents
+/logs
+
+# 环境配置文件（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# agent-browser Chrome 安装目录
+.agent-browser/
+
+# 浏览器自动化用户数据目录
+browser-data/
+

@@ -1,0 +1,50 @@
+{
+  "_comment": "Cradle 浏览器自动化配置文件示例",
+  "enabled": true,
+  "controlPort": 18791,
+  "auth": {
+    "token": "your-secure-browser-token"
+  },
+  "ssrf": {
+    "allowLocalhost": true,
+    "allowPrivateHosts": false,
+    "allowList": [],
+    "denyList": []
+  },
+  "profiles": {
+    "default": {
+      "driver": "local-managed",
+      "cdpPort": 18800,
+      "headless": false,
+      "executablePath": "/usr/bin/google-chrome"
+    },
+    "local-headless": {
+      "driver": "local-managed",
+      "cdpPort": 18801,
+      "headless": true,
+      "executablePath": "/usr/bin/chromium-browser"
+    },
+    "existing-chrome": {
+      "driver": "existing-session",
+      "userDataDir": "/home/user/.config/google-chrome",
+      "attachOnly": true
+    },
+    "browserless": {
+      "driver": "remote-cdp",
+      "cdpUrl": "wss://chrome.browserless.io?token=your-browserless-token"
+    },
+    "browserbase": {
+      "driver": "remote-cdp",
+      "cdpUrl": "wss://api.browserbase.com/v1/devtools/your-session-id"
+    },
+    "remote-chrome": {
+      "driver": "remote-cdp",
+      "cdpUrl": "http://remote-server:9222"
+    },
+    "playwright-remote": {
+      "_comment": "使用 Playwright 连接远程 Chrome，支持完整自动化能力",
+      "driver": "local-managed",
+      "cdpUrl": "http://localhost:9222"
+    }
+  }
+}

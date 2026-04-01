@@ -1,0 +1,730 @@
+{
+	"timestamp": "2026-03-24",
+	"description": "浏览器原始数据快照 - 抖音搜索页面",
+	"tabs": {
+		"total": 7,
+		"active": "page-1774344379472-arcbc4",
+		"list": [
+			{
+				"targetId": "page-1774328743989-8twtp6",
+				"url": "https://live.douyin.com/",
+				"title": "",
+				"active": false,
+				"profile": "playwright-remote"
+			},
+			{
+				"targetId": "page-1774339713062-6aprs5",
+				"url": "https://www.douyin.com/search/%E6%B0%B4%E7%90%83%E6%B3%A1?aid=848a94c0-6538-42b4-b322-db56114767bc&type=general",
+				"title": "",
+				"active": false,
+				"profile": "playwright-remote"
+			},
+			{
+				"targetId": "page-1774344333416-qtrpr4",
+				"url": "https://www.douyin.com/search/%E6%B0%B4%E7%90%83%E6%B3%A1?aid=fad7ca6b-c4b5-4ed0-bf6a-d29b4abfb43a&type=general",
+				"title": "",
+				"active": false,
+				"profile": "playwright-remote"
+			},
+			{
+				"targetId": "page-1774344350537-2l2ny7",
+				"url": "https://www.douyin.com/search/%E6%B0%B4%E7%90%83%E6%B3%A1?aid=5bf41454-f11d-4bc5-9284-8518b059e9c4&type=general",
+				"title": "",
+				"active": false,
+				"profile": "playwright-remote"
+			},
+			{
+				"targetId": "page-1774344372013-zjfklr",
+				"url": "https://www.douyin.com/search/%E6%B0%B4%E7%90%83%E6%B3%A1?aid=1eb3e150-118e-402a-afb3-459132bc5443&type=general",
+				"title": "",
+				"active": false,
+				"profile": "playwright-remote"
+			},
+			{
+				"targetId": "page-1774344379472-arcbc4",
+				"url": "https://www.douyin.com/search/%E6%B0%B4%E7%90%83%E6%B3%A1?aid=783cb92a-eab7-4afc-b0ba-5b6baa1f17ad&type=general",
+				"title": "发现更多精彩视频 - 抖音搜索",
+				"active": true,
+				"profile": "playwright-remote"
+			},
+			{
+				"targetId": "page-1774344484769-mfh05w",
+				"url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/cad2464cccf8493497137853128b1eb2~tplv-dy-cropcenter:323:430.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_PUBLISH&sc=cover&se=true&sh=323_430&x-expires=2089702800&x-signature=lR29sn1du8cZQjnPSahuAv10w2Y%3D",
+				"title": "",
+				"active": false,
+				"profile": "playwright-remote"
+			}
+		]
+	},
+	"currentPage": {
+		"url": "https://www.douyin.com/search/%E6%B0%B4%E7%90%83%E6%B3%A1?aid=783cb92a-eab7-4afc-b0ba-5b6baa1f17ad&type=general",
+		"title": "发现更多精彩视频 - 抖音搜索",
+		"searchKeyword": "水球泡"
+	},
+	"snapshots": {
+		"ai": {
+			"success": true,
+			"elements": [
+				{
+					"ref": "e1",
+					"type": "button",
+					"description": "开启读屏标签",
+					"text": "开启读屏标签"
+				},
+				{
+					"ref": "e2",
+					"type": "button",
+					"description": "搜索",
+					"text": "搜索"
+				},
+				{
+					"ref": "e3",
+					"type": "button",
+					"description": "关注",
+					"text": "关注"
+				},
+				{
+					"ref": "e4",
+					"type": "link",
+					"description": "",
+					"text": ""
+				},
+				{
+					"ref": "e5",
+					"type": "link",
+					"description": "精选",
+					"text": "精选"
+				},
+				{
+					"ref": "e6",
+					"type": "link",
+					"description": "推荐",
+					"text": "推荐"
+				},
+				{
+					"ref": "e7",
+					"type": "link",
+					"description": "搜索",
+					"text": "搜索"
+				},
+				{
+					"ref": "e8",
+					"type": "link",
+					"description": "关注4",
+					"text": "关注4"
+				},
+				{
+					"ref": "e9",
+					"type": "link",
+					"description": "朋友2",
+					"text": "朋友2"
+				},
+				{
+					"ref": "e10",
+					"type": "link",
+					"description": "我的",
+					"text": "我的"
+				},
+				{
+					"ref": "e11",
+					"type": "link",
+					"description": "直播",
+					"text": "直播"
+				},
+				{
+					"ref": "e12",
+					"type": "link",
+					"description": "放映厅",
+					"text": "放映厅"
+				},
+				{
+					"ref": "e13",
+					"type": "link",
+					"description": "短剧",
+					"text": "短剧"
+				},
+				{
+					"ref": "e14",
+					"type": "link",
+					"description": "小游戏",
+					"text": "小游戏"
+				},
+				{
+					"ref": "e15",
+					"type": "link",
+					"description": "京ICP备16016397号-3",
+					"text": "京ICP备16016397号-3"
+				},
+				{
+					"ref": "e16",
+					"type": "link",
+					"description": "京公网安备 11000002002046号",
+					"text": "京公网安备 11000002002046号"
+				},
+				{
+					"ref": "e17",
+					"type": "link",
+					"description": "广播电视节目制作经营许可证",
+					"text": "广播电视节目制作经营许可证"
+				},
+				{
+					"ref": "e18",
+					"type": "link",
+					"description": "京B2-20170846",
+					"text": "京B2-20170846"
+				},
+				{
+					"ref": "e19",
+					"type": "link",
+					"description": "网络文化许可证-京网文-（2025）0181-061号",
+					"text": "网络文化许可证-京网文-（2025）0181-061号"
+				},
+				{
+					"ref": "e20",
+					"type": "link",
+					"description": "网络谣言曝光台",
+					"text": "网络谣言曝光台"
+				},
+				{
+					"ref": "e21",
+					"type": "link",
+					"description": "网上有害信息举报",
+					"text": "网上有害信息举报"
+				},
+				{
+					"ref": "e22",
+					"type": "link",
+					"description": "广告投放",
+					"text": "广告投放"
+				},
+				{
+					"ref": "e23",
+					"type": "link",
+					"description": "用户服务协议",
+					"text": "用户服务协议"
+				},
+				{
+					"ref": "e24",
+					"type": "link",
+					"description": "隐私政策",
+					"text": "隐私政策"
+				},
+				{
+					"ref": "e25",
+					"type": "link",
+					"description": "账号找回",
+					"text": "账号找回"
+				},
+				{
+					"ref": "e26",
+					"type": "link",
+					"description": "联系我们",
+					"text": "联系我们"
+				},
+				{
+					"ref": "e27",
+					"type": "link",
+					"description": "加入我们",
+					"text": "加入我们"
+				},
+				{
+					"ref": "e28",
+					"type": "link",
+					"description": "营业执照",
+					"text": "营业执照"
+				},
+				{
+					"ref": "e29",
+					"type": "link",
+					"description": "友情链接",
+					"text": "友情链接"
+				},
+				{
+					"ref": "e30",
+					"type": "link",
+					"description": "站点地图",
+					"text": "站点地图"
+				},
+				{
+					"ref": "e31",
+					"type": "link",
+					"description": "下载抖音",
+					"text": "下载抖音"
+				},
+				{
+					"ref": "e32",
+					"type": "link",
+					"description": "抖音电商",
+					"text": "抖音电商"
+				},
+				{
+					"ref": "e33",
+					"type": "link",
+					"description": "客户端",
+					"text": "客户端"
+				},
+				{
+					"ref": "e34",
+					"type": "link",
+					"description": "",
+					"text": ""
+				},
+				{
+					"ref": "e35",
+					"type": "link",
+					"description": "",
+					"text": ""
+				},
+				{
+					"ref": "e36",
+					"type": "link",
+					"description": "水球泡",
+					"text": "水球泡"
+				},
+				{
+					"ref": "e37",
+					"type": "link",
+					"description": "查看全部百科水球泡，抖音短视频创作者，截至2024年12月2日，该账号作品数量841个，粉丝量33.8万，获赞221.7万。2019年1月3日，",
+					"text": "查看全部百科水球泡，抖音短视频创作者，截至2024年12月2日，该账号作品数量841个，粉丝量33.8万，获赞221.7万。2019年1月3日，"
+				},
+				{
+					"ref": "e38",
+					"type": "textbox",
+					"description": "",
+					"text": ""
+				}
+			],
+			"pageText": "开启读屏标签读屏标签已关闭\n      var ob = new MutationObserver(function (mutationList, observer) {\n      mutationList.forEach(function(mutation) {\n        switch (mutation.type) {\n          case \"childList\":\n            var removedNodes = Array.from(mutation.removedNodes)\n            removedNodes.forEach(function(element) {\n              if (!!element.attributes.hidden) {\n                var hasCard = document.querySelector('.u0027search-result-card')\n                if (hasCard) {\n                  console.log('find search-result-card')\n                  mark(\"page_dom_end\")\n                  observer.disconnect()\n                }\n              }\n            });\n            break;\n          default:\n            break;\n        }\n      });\n    })\n    ob.observe(document.body, { childList: true })\n    window.addEventListener('DOMContentLoaded', function() {\n      ob.disconnect()\n    })\n            精选推荐搜索关注4朋友2我的直播放映厅短剧小游戏下载抖音精选2026 © 抖音京ICP备16016397号-3京公网安备 11000002002046号广播电视节目制作经营许可证京B2-20170846网络文化许可证-京网文-（2025）0181-061号互联网宗教信息服务许可证 京（2025）0000017药品医疗器械网络信息服务备案  （京）网药械信息备字（2023）第00570号互联网新闻信息服务许可证 11220230001网络谣言曝光台网上有害信息举报违法和不良信息举报 400-140-2108算法推荐专项举报 sfjubao@bytedance.com网络内容从业人员违法违规行为举报 feedback@douyin.com体育饭圈专项举报 tyfq@bytedance.com广告投放用户服务协议隐私政策账号找回联系我们加入我们营业执照友情链接站点地图下载抖音抖音电商搜索充钻石客户端壁纸通知私信投稿姑苏大风关注58粉丝64我的喜欢101日常工作中，我是怎么使用Agent的（ClaudeCode）#Agent #claudecode #codex #高效工作 #ai初创公司硅谷著名创投加速器YC力推"
+		},
+		"aria": {
+			"success": true,
+			"elements": [
+				{
+					"ref": "e1",
+					"role": "button",
+					"name": "开启读屏标签"
+				},
+				{
+					"ref": "e2",
+					"role": "button",
+					"name": "搜索"
+				},
+				{
+					"ref": "e3",
+					"role": "button",
+					"name": "关注"
+				},
+				{
+					"ref": "e4",
+					"role": "link",
+					"name": ""
+				},
+				{
+					"ref": "e5",
+					"role": "link",
+					"name": "精选"
+				},
+				{
+					"ref": "e6",
+					"role": "link",
+					"name": "推荐"
+				},
+				{
+					"ref": "e7",
+					"role": "link",
+					"name": "搜索"
+				},
+				{
+					"ref": "e8",
+					"role": "link",
+					"name": "关注4"
+				},
+				{
+					"ref": "e9",
+					"role": "link",
+					"name": "朋友2"
+				},
+				{
+					"ref": "e10",
+					"role": "link",
+					"name": "我的"
+				},
+				{
+					"ref": "e11",
+					"role": "link",
+					"name": "直播"
+				},
+				{
+					"ref": "e12",
+					"role": "link",
+					"name": "放映厅"
+				},
+				{
+					"ref": "e13",
+					"role": "link",
+					"name": "短剧"
+				},
+				{
+					"ref": "e14",
+					"role": "link",
+					"name": "小游戏"
+				},
+				{
+					"ref": "e15",
+					"role": "link",
+					"name": "京ICP备16016397号-3"
+				},
+				{
+					"ref": "e16",
+					"role": "link",
+					"name": "京公网安备 11000002002046号"
+				},
+				{
+					"ref": "e17",
+					"role": "link",
+					"name": "广播电视节目制作经营许可证"
+				},
+				{
+					"ref": "e18",
+					"role": "link",
+					"name": "京B2-20170846"
+				},
+				{
+					"ref": "e19",
+					"role": "link",
+					"name": "网络文化许可证-京网文-（2025）0181-061号"
+				},
+				{
+					"ref": "e20",
+					"role": "link",
+					"name": "网络谣言曝光台"
+				},
+				{
+					"ref": "e21",
+					"role": "link",
+					"name": "网上有害信息举报"
+				},
+				{
+					"ref": "e22",
+					"role": "link",
+					"name": "广告投放"
+				},
+				{
+					"ref": "e23",
+					"role": "link",
+					"name": "用户服务协议"
+				},
+				{
+					"ref": "e24",
+					"role": "link",
+					"name": "隐私政策"
+				},
+				{
+					"ref": "e25",
+					"role": "link",
+					"name": "账号找回"
+				},
+				{
+					"ref": "e26",
+					"role": "link",
+					"name": "联系我们"
+				},
+				{
+					"ref": "e27",
+					"role": "link",
+					"name": "加入我们"
+				},
+				{
+					"ref": "e28",
+					"role": "link",
+					"name": "营业执照"
+				},
+				{
+					"ref": "e29",
+					"role": "link",
+					"name": "友情链接"
+				},
+				{
+					"ref": "e30",
+					"role": "link",
+					"name": "站点地图"
+				},
+				{
+					"ref": "e31",
+					"role": "link",
+					"name": "下载抖音"
+				},
+				{
+					"ref": "e32",
+					"role": "link",
+					"name": "抖音电商"
+				},
+				{
+					"ref": "e33",
+					"role": "link",
+					"name": "客户端"
+				},
+				{
+					"ref": "e34",
+					"role": "link",
+					"name": ""
+				},
+				{
+					"ref": "e35",
+					"role": "link",
+					"name": ""
+				},
+				{
+					"ref": "e36",
+					"role": "link",
+					"name": "水球泡"
+				},
+				{
+					"ref": "e37",
+					"role": "link",
+					"name": "查看全部百科水球泡，抖音短视频创作者，截至2024年12月2日，该账号作品数量841个，粉丝量33.8万，获赞221.7万。2019年1月3日，"
+				},
+				{
+					"ref": "e38",
+					"role": "textbox",
+					"name": ""
+				}
+			],
+			"pageText": "开启读屏标签读屏标签已关闭\n      var ob = new MutationObserver(function (mutationList, observer) {\n      mutationList.forEach(function(mutation) {\n        switch (mutation.type) {\n          case \"childList\":\n            var removedNodes = Array.from(mutation.removedNodes)\n            removedNodes.forEach(function(element) {\n              if (!!element.attributes.hidden) {\n                var hasCard = document.querySelector('.search-result-card')\n                if (hasCard) {\n                  console.log('find search-result-card')\n                  mark(\"page_dom_end\")\n                  observer.disconnect()\n                }\n              }\n            });\n            break;\n          default:\n            break;\n        }\n      });\n    })\n    ob.observe(document.body, { childList: true })\n    window.addEventListener('DOMContentLoaded', function() {\n      ob.disconnect()\n    })\n            精选推荐搜索关注4朋友2我的直播放映厅短剧小游戏下载抖音精选2026 © 抖音京ICP备16016397号-3京公网安备 11000002002046号广播电视节目制作经营许可证京B2-20170846网络文化许可证-京网文-（2025）0181-061号互联网宗教信息服务许可证 京（2025）0000017药品医疗器械网络信息服务备案  （京）网药械信息备字（2023）第00570号互联网新闻信息服务许可证 11220230001网络谣言曝光台网上有害信息举报违法和不良信息举报 400-140-2108算法推荐专项举报 sfjubao@bytedance.com网络内容从业人员违法违规行为举报 feedback@douyin.com体育饭圈专项举报 tyfq@bytedance.com广告投放用户服务协议隐私政策账号找回联系我们加入我们营业执照友情链接站点地图下载抖音抖音电商搜索充钻石客户端壁纸通知私信投稿姑苏大风关注58粉丝64我的喜欢101日常工作中，我是怎么使用Agent的（ClaudeCode）#Agent #claudecode #codex #高效工作 #ai初创公司硅谷著名创投加速器YC力推"
+		},
+		"role": {
+			"success": true,
+			"elements": [
+				{
+					"role": "button",
+					"name": "开启读屏标签",
+					"nth": 0,
+					"ref": "e1"
+				},
+				{
+					"role": "button",
+					"name": "搜索",
+					"nth": 1,
+					"ref": "e2"
+				},
+				{
+					"role": "button",
+					"name": "关注",
+					"nth": 2,
+					"ref": "e3"
+				},
+				{
+					"role": "link",
+					"name": "",
+					"nth": 0,
+					"ref": "e4"
+				},
+				{
+					"role": "link",
+					"name": "精选",
+					"nth": 1,
+					"ref": "e5"
+				},
+				{
+					"role": "link",
+					"name": "推荐",
+					"nth": 2,
+					"ref": "e6"
+				},
+				{
+					"role": "link",
+					"name": "搜索",
+					"nth": 3,
+					"ref": "e7"
+				},
+				{
+					"role": "link",
+					"name": "关注4",
+					"nth": 4,
+					"ref": "e8"
+				},
+				{
+					"role": "link",
+					"name": "朋友2",
+					"nth": 5,
+					"ref": "e9"
+				},
+				{
+					"role": "link",
+					"name": "我的",
+					"nth": 6,
+					"ref": "e10"
+				},
+				{
+					"role": "link",
+					"name": "直播",
+					"nth": 7,
+					"ref": "e11"
+				},
+				{
+					"role": "link",
+					"name": "放映厅",
+					"nth": 8,
+					"ref": "e12"
+				},
+				{
+					"role": "link",
+					"name": "短剧",
+					"nth": 9,
+					"ref": "e13"
+				},
+				{
+					"role": "link",
+					"name": "小游戏",
+					"nth": 10,
+					"ref": "e14"
+				},
+				{
+					"role": "link",
+					"name": "京ICP备16016397号-3",
+					"nth": 11,
+					"ref": "e15"
+				},
+				{
+					"role": "link",
+					"name": "京公网安备 11000002002046号",
+					"nth": 12,
+					"ref": "e16"
+				},
+				{
+					"role": "link",
+					"name": "广播电视节目制作经营许可证",
+					"nth": 13,
+					"ref": "e17"
+				},
+				{
+					"role": "link",
+					"name": "京B2-20170846",
+					"nth": 14,
+					"ref": "e18"
+				},
+				{
+					"role": "link",
+					"name": "网络文化许可证-京网文-（2025）0181-061号",
+					"nth": 15,
+					"ref": "e19"
+				},
+				{
+					"role": "link",
+					"name": "网络谣言曝光台",
+					"nth": 16,
+					"ref": "e20"
+				},
+				{
+					"role": "link",
+					"name": "网上有害信息举报",
+					"nth": 17,
+					"ref": "e21"
+				},
+				{
+					"role": "link",
+					"name": "广告投放",
+					"nth": 18,
+					"ref": "e22"
+				},
+				{
+					"role": "link",
+					"name": "用户服务协议",
+					"nth": 19,
+					"ref": "e23"
+				},
+				{
+					"role": "link",
+					"name": "隐私政策",
+					"nth": 20,
+					"ref": "e24"
+				},
+				{
+					"role": "link",
+					"name": "账号找回",
+					"nth": 21,
+					"ref": "e25"
+				},
+				{
+					"role": "link",
+					"name": "联系我们",
+					"nth": 22,
+					"ref": "e26"
+				},
+				{
+					"role": "link",
+					"name": "加入我们",
+					"nth": 23,
+					"ref": "e27"
+				},
+				{
+					"role": "link",
+					"name": "营业执照",
+					"nth": 24,
+					"ref": "e28"
+				},
+				{
+					"role": "link",
+					"name": "友情链接",
+					"nth": 25,
+					"ref": "e29"
+				},
+				{
+					"role": "link",
+					"name": "站点地图",
+					"nth": 26,
+					"ref": "e30"
+				},
+				{
+					"role": "link",
+					"name": "下载抖音",
+					"nth": 27,
+					"ref": "e31"
+				},
+				{
+					"role": "link",
+					"name": "抖音电商",
+					"nth": 28,
+					"ref": "e32"
+				},
+				{
+					"role": "link",
+					"name": "客户端",
+					"nth": 29,
+					"ref": "e33"
+				},
+				{
+					"role": "link",
+					"name": "",
+					"nth": 30,
+					"ref": "e34"
+				},
+				{
+					"role": "link",
+					"name": "",
+					"nth": 31,
+					"ref": "e35"
+				},
+				{
+					"role": "link",
+					"name": "水球泡",
+					"nth": 32,
+					"ref": "e36"
+				},
+				{
+					"role": "link",
+					"name": "查看全部百科水球泡，抖音短视频创作者，截至2024年12月2日，该账号作品数量841个，粉丝量33.8万，获赞221.7万。2019年1月3日，",
+					"nth": 33,
+					"ref": "e37"
+				},
+				{
+					"role": "textbox",
+					"name": "",
+					"nth": 0,
+					"ref": "e38"
+				}
+			],
+			"pageText": "开启读屏标签读屏标签已关闭\n      var ob = new MutationObserver(function (mutationList, observer) {\n        mutationList.forEach(function(mutation) {\n          switch (mutation.type) {\n            case \"childList\":\n              var removedNodes = Array.from(mutation.removedNodes)\n              removedNodes.forEach(function(element) {\n                if (!!element.attributes.hidden) {\n                  var hasCard = document.querySelector('.search-result-card')\n                  if (hasCard) {\n                    console.log('find search-result-card')\n                    mark(\"page_dom_end\")\n                    observer.disconnect()\n                  }\n                }\n              });\n              break;\n            default:\n              break;\n          }\n        });\n      })\n      ob.observe(document.body, { childList: true })\n      window.addEventListener('DOMContentLoaded', function() {\n        ob.disconnect()\n      })\n              精选推荐搜索关注4朋友2我的直播放映厅短剧小游戏下载抖音精选2026 © 抖音京ICP备16016397号-3京公网安备 11000002002046号广播电视节目制作经营许可证京B2-20170846网络文化许可证-京网文-（2025）0181-061号互联网宗教信息服务许可证 京（2025）0000017药品医疗器械网络信息服务备案  （京）网药械信息备字（2023）第00570号互联网新闻信息服务许可证 11220230001网络谣言曝光台网上有害信息举报违法和不良信息举报 400-140-2108算法推荐专项举报 sfjubao@bytedance.com网络内容从业人员违法违规行为举报 feedback@douyin.com体育饭圈专项举报 tyfq@bytedance.com广告投放用户服务协议隐私政策账号找回联系我们加入我们营业执照友情链接站点地图下载抖音抖音电商搜索充钻石客户端壁纸通知私信投稿姑苏大风关注58粉丝64我的喜欢101日常工作中，我是怎么使用Agent的（ClaudeCode）#Agent #claudecode #codex #高效工作 #ai初创公司硅谷著名创投加速器YC力推"
+		}
+	}
+}

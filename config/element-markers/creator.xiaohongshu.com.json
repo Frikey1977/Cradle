@@ -1,0 +1,189 @@
+{
+  "domain": "creator.xiaohongshu.com",
+  "displayName": "creator.xiaohongshu.com",
+  "description": "",
+  "pages": [
+    {
+      "pageType": "default",
+      "description": "",
+      "urlPattern": "https://creator.xiaohongshu.com/login?source=official&redirectReason=401&lastUrl=%252Fpublish%252Fpublish%253Fsource%253Dofficial",
+      "elements": [
+        {
+          "ref": "r1",
+          "type": "click",
+          "description": "手机号",
+          "selector": "input[placeholder=\"手机号\"]",
+          "selectorType": "css",
+          "tagName": "input",
+          "breadcrumb": [
+            "div#app",
+            "div#CreatorPlatform",
+            "div#page",
+            "div.login-container",
+            "div.content",
+            "div.con",
+            "div.login-box-container",
+            "div.css-1age63q",
+            "div",
+            "div",
+            "div.css-jjnw1w",
+            "div",
+            "div.css-1k0gv8u",
+            "div",
+            "div.css-pi8x8p",
+            "input.css-19z0sa3"
+          ],
+          "rect": {
+            "x": 1391.59375,
+            "y": 441.5,
+            "width": 256,
+            "height": 48,
+            "top": 441.5,
+            "right": 1647.59375,
+            "bottom": 489.5,
+            "left": 1391.59375
+          },
+          "attributes": {
+            "placeholder": "手机号",
+            "autocomplete": "on",
+            "autofocus": "",
+            "class": "css-19z0sa3 css-nt440g dyn",
+            "value": ""
+          },
+          "text": "",
+          "placeholder": "手机号",
+          "updatedAt": "2026-03-27T13:20:30.118Z"
+        },
+        {
+          "ref": "r5",
+          "type": "click",
+          "description": "发送验证码",
+          "selector": "xpath=//div[text()=\"发送验证码\"]",
+          "selectorType": "xpath",
+          "tagName": "div",
+          "breadcrumb": [
+            "div#app",
+            "div#CreatorPlatform",
+            "div#page",
+            "div.login-container",
+            "div.content",
+            "div.con",
+            "div.login-box-container",
+            "div.css-1age63q",
+            "div",
+            "div",
+            "div.css-jjnw1w",
+            "div",
+            "div.css-1k0gv8u",
+            "div",
+            "div.css-pi8x8p",
+            "div.slot-right",
+            "div.css-u4p24i",
+            "div.css-1vfl29"
+          ],
+          "rect": {
+            "x": 1560.59375,
+            "y": 525,
+            "width": 70,
+            "height": 14,
+            "top": 525,
+            "right": 1630.59375,
+            "bottom": 539,
+            "left": 1560.59375
+          },
+          "attributes": {
+            "class": "css-1vfl29",
+            "style": ""
+          },
+          "text": "发送验证码"
+        },
+        {
+          "ref": "r3",
+          "type": "click",
+          "description": "验证码",
+          "selector": "input[placeholder=\"验证码\"]",
+          "selectorType": "css",
+          "tagName": "input",
+          "breadcrumb": [
+            "div#app",
+            "div#CreatorPlatform",
+            "div#page",
+            "div.login-container",
+            "div.content",
+            "div.con",
+            "div.login-box-container",
+            "div.css-1age63q",
+            "div",
+            "div",
+            "div.css-jjnw1w",
+            "div",
+            "div.css-1k0gv8u",
+            "div",
+            "div.css-pi8x8p",
+            "input.css-19z0sa3"
+          ],
+          "rect": {
+            "x": 1391.59375,
+            "y": 505.5,
+            "width": 256,
+            "height": 48,
+            "top": 505.5,
+            "right": 1647.59375,
+            "bottom": 553.5,
+            "left": 1391.59375
+          },
+          "attributes": {
+            "placeholder": "验证码",
+            "class": "css-19z0sa3 css-1ge5flv dyn",
+            "value": ""
+          },
+          "text": "",
+          "placeholder": "验证码"
+        },
+        {
+          "ref": "r4",
+          "type": "click",
+          "description": "登录",
+          "selector": "div > div > div > div > button",
+          "selectorType": "css",
+          "tagName": "button",
+          "breadcrumb": [
+            "div#app",
+            "div#CreatorPlatform",
+            "div#page",
+            "div.login-container",
+            "div.content",
+            "div.con",
+            "div.login-box-container",
+            "div.css-1age63q",
+            "div",
+            "div",
+            "div.css-jjnw1w",
+            "div",
+            "button.css-1jgt0wa"
+          ],
+          "rect": {
+            "x": 1391.59375,
+            "y": 621.5,
+            "width": 256,
+            "height": 48,
+            "top": 621.5,
+            "right": 1647.59375,
+            "bottom": 669.5,
+            "left": 1391.59375
+          },
+          "attributes": {
+            "class": "css-1jgt0wa css-y4h4ay dyn beer-login-btn"
+          },
+          "text": "登 录"
+        }
+      ],
+      "actionGroups": [],
+      "updatedAt": "2026-03-27T13:42:28.059Z",
+      "version": 1
+    }
+  ],
+  "createdAt": "2026-03-27T13:18:54.603Z",
+  "updatedAt": "2026-03-27T13:42:28.059Z",
+  "version": 8
+}

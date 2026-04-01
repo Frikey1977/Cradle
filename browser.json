@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "controlPort": 18791,
+  "auth": {
+    "token": "cradle-browser-test-token"
+  },
+  "profiles": {
+    "default": {
+      "driver": "local-managed",
+      "cdpUrl": "http://127.0.0.1:9222",
+      "headless": false
+    },
+    "chrome-mcp": {
+      "driver": "existing-session",
+      "attachOnly": true
+    }
+  }
+}

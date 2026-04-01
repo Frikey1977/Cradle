@@ -1,0 +1,46 @@
+{
+  "domain": "live.douyin.com",
+  "displayName": "live.douyin.com",
+  "description": "",
+  "pages": [
+    {
+      "pageType": "default",
+      "description": "",
+      "urlPattern": "regex:^https://live\\.douyin\\.com/\\d+",
+      "elements": [
+        {
+          "ref": "r1",
+          "type": "text",
+          "description": "观众列表",
+          "selector": "xpath=//*[@id=\"chatroom\"]/div[2]/div[1]",
+          "selectorType": "xpath",
+          "tagName": "div",
+          "text": "在线观众列表"
+        },
+        {
+          "ref": "r2",
+          "type": "text",
+          "description": "聊天消息区",
+          "selector": "xpath=//*[@id=\"chatroom\"]/div[2]/div[2]",
+          "selectorType": "xpath",
+          "tagName": "div",
+          "text": "聊天消息列表"
+        },
+        {
+          "ref": "r3",
+          "type": "chat",
+          "description": "聊天输入区",
+          "selector": "xpath=//*[@id=\"chatInput\"]//div[@contenteditable=\"true\"]",
+          "selectorType": "xpath",
+          "tagName": "div"
+        }
+      ],
+      "actionGroups": [],
+      "updatedAt": "2026-03-27T17:00:00.000Z",
+      "version": 1
+    }
+  ],
+  "createdAt": "2026-03-27T14:57:30.084Z",
+  "updatedAt": "2026-03-27T17:00:00.000Z",
+  "version": 8
+}

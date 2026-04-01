@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "cradle-browser": {
+      "command": "npx",
+      "args": [
+        "tsx",
+        "src/mcp/browser-server.ts"
+      ],
+      "cwd": "f:\\01. cradle-main\\cradle",
+      "env": {
+        "BROWSER_API_URL": "http://127.0.0.1:18791",
+        "BROWSER_AUTH_TOKEN": "cradle-browser-test-token"
+      }
+    }
+  }
+}

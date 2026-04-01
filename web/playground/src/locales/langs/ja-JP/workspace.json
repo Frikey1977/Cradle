@@ -1,0 +1,18 @@
+{
+  "title": "ワークスペース",
+  "chat": {
+    "title": "チャット",
+    "selectAgent": "エージェントを選択",
+    "startChat": "チャットを開始",
+    "inputPlaceholder": "メッセージを入力...",
+    "send": "送信",
+    "connecting": "接続中...",
+    "connected": "接続済み",
+    "disconnected": "未接続",
+    "debugPanel": "デバッグパネル",
+    "channel": "チャンネル",
+    "identity": "アイデンティティ",
+    "userName": "ユーザー名",
+    "metadata": "メタデータ"
+  }
+}
