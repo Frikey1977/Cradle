@@ -111,7 +111,7 @@ Cradle 是一个面向企业的**私有化部署 AI 助理平台**，旨在为�
 1. **克隆项目**
 
 ```bash
-git clone https://gitee.com/aosne_development_team/cradle.git
+git clone https://gitee.com/aosenai/cradle
 ```
 
 2. **初始化数据库**
@@ -131,7 +131,7 @@ npm install -g pnpm
 npx pnpm install
 ```
 
-4. **编译原生模块（Windows 用户必需）**
+4. **编译原生模块（Windows 用户必需 linux 用户可选）**
 
 > ⚠️ **注意**：如果在启动服务时遇到 `Could not locate the bindings file` 错误，需要手动编译 better-sqlite3 模块：
 
@@ -158,6 +158,8 @@ cp .env.example .env
 ```
 
 6. **启动服务**
+
+Trae中@Builder：启动服务，即可自动启动所有服务。
 
 ```bash
 # 启动 Gateway Master（主服务）
