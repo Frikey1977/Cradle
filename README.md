@@ -64,7 +64,8 @@ Cradle 是一个面向企业的**私有化部署 AI 助理平台**，旨在为�
 | 技术 | 版本 | 说明 |
 |-----|------|------|
 | TypeScript | 5.3+ | 开发语言 |
-| Node.js | 18+ | 运行时 |
+| Node.js |24.14.1 | https://nodejs.org/dist/v24.14.1/node-v24.14.1-x64.msi |
+| python | 3.13.5 | https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe|
 | Fastify | 4.25+ | Web 框架 |
 | SQLite | 12.8+ | 数据库 (预编译二进制文件已包含) |
 | WebSocket | 8.19+ | 实时通信 |
