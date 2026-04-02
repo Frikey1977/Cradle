@@ -131,22 +131,32 @@ npm install -g pnpm
 npx pnpm install
 ```
 
-4. **编译原生模块（Windows 用户必需 linux 用户可选）**
+4. **Windows 用户数据库配置说明**
 
-> ⚠️ **注意**：如果在启动服务时遇到 `Could not locate the bindings file` 错误，需要手动编译 better-sqlite3 模块：
+> ℹ️ **SQLite 是默认且最简单的方案**：better-sqlite3 官方提供 Windows 预构建二进制文件，正常情况下 `npm install` 会自动下载安装
+>
+> 如果遇到 `Could not locate the bindings file` 错误，通常是因为网络问题导致预构建文件下载失败。解决方案：
 
+**方案 1：配置 npm 镜像后重新安装（最简单）**
+```bash
+# 配置国内镜像
+npm config set registry https://registry.npmmirror.com
+npm config set disturl https://npmmirror.com/dist
+
+# 删除并重新安装 better-sqlite3
+rm -rf node_modules/better-sqlite3
+npx pnpm install
+```
+
+
+**方案 2：手动编译（需要安装编译工具）**
 ```bash
 # 进入 better-sqlite3 目录并重新编译
 cd node_modules/better-sqlite3
 npx node-gyp rebuild
-
-# 返回项目根目录
 cd ../..
 ```
-
-**前置要求**：
-- Windows: 需要安装 Visual Studio Build Tools 或 Visual Studio（包含 C++ 工作负载）
-- Python 3.x（用于 node-gyp）
+**前置要求**：Visual Studio Build Tools + Python 3.x
 
 5. **配置环境变量**
 
