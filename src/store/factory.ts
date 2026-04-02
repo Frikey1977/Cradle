@@ -50,7 +50,7 @@ export async function resetDatabase(): Promise<void> {
 }
 
 /**
- * 初始化数据库（应用迁移和 Seed）
+ * 初始化数据库（应用迁移）
  */
 export async function initializeDatabase(): Promise<IDatabaseAdapter> {
   const db = await getDatabase();
@@ -60,16 +60,7 @@ export async function initializeDatabase(): Promise<IDatabaseAdapter> {
   const { runMigrations } = await import("./migrations/index.js");
   await runMigrations(db);
 
-  // 2. 执行 Seed 数据初始化
-  console.log("[Database] Running seeds...");
-  const { runSeeds, shouldRunSeeds } = await import("./seeds/index.js");
-  if (await shouldRunSeeds(db)) {
-    await runSeeds(db);
-  } else {
-    console.log("[Database] Seeds already applied, skipping");
-  }
-
-  // 3. 初始化心跳日志表
+  // 2. 初始化心跳日志表
   const { getHeartbeatLogRepository } = await import("./repositories/heartbeat-logs.js");
   await getHeartbeatLogRepository(db);
 
