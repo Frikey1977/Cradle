@@ -82,6 +82,24 @@ Cradle 是一个面向企业的**私有化部署 AI 助理平台**，旨在为�
 
 ## 快速开始
 
+### ⚠️ 注意事项
+
+**项目文件夹路径请尽量避免使用英文以外的字符（包括空格），以免出现不可预期的问题。**
+
+### 开发环境准备
+
+推荐使用 **Trae** 作为开发 IDE，以下扩展建议安装：
+
+| 扩展名称 | 说明 |
+|---------|------|
+| SQLite3 Editor | SQLite 数据库可视化编辑 |
+| i18n Ally | 国际化辅助工具 |
+| Iconify IntelliSense | 图标库智能提示 |
+| ESLint | 代码规范检查 |
+| Code Formatter & Minifier | 代码格式化与压缩 |
+| Tailwind CSS IntelliSense | Tailwind CSS 智能提示 |
+| Vue (Official) | Vue 官方扩展 |
+
 ### 环境要求
 
 - Node.js >= 18.0.0
