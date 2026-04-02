@@ -168,6 +168,7 @@ npx pnpm run dev
 
 # 启动 Cradle 前端服务（在另一个终端）
 cd web/playground
+npx pnpm install
 npx pnpm dev
 ```
 
@@ -175,7 +176,7 @@ npx pnpm dev
 
 | 服务 | 地址 | 说明 |
 |------|------|------|
-| Cradle Web UI | http://localhost:5555 | 前端管理界面 |
+| Cradle Web UI | http://localhost:5555 | 前端管理界面 选择Admin登录 |
 | Cradle API Service | http://localhost:5320/api/health | API 服务健康检测 |
 | Cradle Gateway Master | http://localhost:3000/health | 网关主服务健康检测 |
 | Cradle Browser MCP | http://localhost:18791/health | 浏览器 MCP 服务健康检测 |
