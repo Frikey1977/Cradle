@@ -1,0 +1,9 @@
+{
+  "platform": "win32",
+  "arch": "x64",
+  "nodeVersion": "v24.13.0",
+  "abiVersion": "137",
+  "betterSqlite3Version": "unknown",
+  "packagedAt": "2026-04-02T12:06:46.177Z",
+  "fileSize": "1857.50 KB"
+}

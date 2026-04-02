@@ -66,7 +66,7 @@ Cradle 是一个面向企业的**私有化部署 AI 助理平台**，旨在为�
 | TypeScript | 5.3+ | 开发语言 |
 | Node.js | 18+ | 运行时 |
 | Fastify | 4.25+ | Web 框架 |
-| SQLite | 12.8+ | 数据库 (兼容MySql) |
+| SQLite | 12.8+ | 数据库 (预编译二进制文件已包含) |
 | WebSocket | 8.19+ | 实时通信 |
 | Playwright | 1.40+ | 浏览器自动化 |
 
@@ -131,37 +131,19 @@ npm install -g pnpm
 npx pnpm install
 ```
 
-4. **Windows 用户数据库配置说明**
+4. **部署预编译二进制文件（Windows 推荐）**
 
-> ℹ️ **SQLite 是默认且最简单的方案**：better-sqlite3 官方提供 Windows 预构建二进制文件，正常情况下 `npm install` 会自动下载安装
->
-> 如果遇到 `Could not locate the bindings file` 错误，通常是因为网络问题导致预构建文件下载失败。解决方案：
+项目已包含预编译的 better-sqlite3 二进制文件，部署时自动安装：
 
-**方案 1：配置 npm 镜像后重新安装（最简单）**
 ```bash
-# 配置国内镜像
-npm config set registry https://registry.npmmirror.com
-npm config set disturl https://npmmirror.com/dist
-
-# 删除并重新安装 better-sqlite3
-rm -rf node_modules/better-sqlite3
+# 安装依赖
 npx pnpm install
 
-# 恢复到官方库镜像（可选）
-npm config delete registry
-npm config delete disturl
-
+# 部署预编译二进制文件
+node prebuilt/install-sqlite.js
 ```
 
-
-**方案 2：手动编译（需要安装编译工具）**
-```bash
-# 进入 better-sqlite3 目录并重新编译
-cd node_modules/better-sqlite3
-npx node-gyp rebuild
-cd ../..
-```
-**前置要求**：Visual Studio Build Tools + Python 3.x
+> ℹ️ 预编译文件位于 `prebuilt/win32-x64/`，支持 Node.js 24.x 版本。如果部署失败，请参考 [手动编译方案](#手动编译方案)。
 
 5. **配置环境变量**
 
@@ -349,4 +331,32 @@ Cradle 开发组为用户提供专业的有偿技术服务，包括但不限于�
 **让我们一起，做大蛋糕，共享未来！**
 
 联系邮箱：**frikey@126.com**
+
+---
+
+## 附录
+
+### 手动编译方案
+
+如果预编译二进制文件部署失败，可以手动编译 better-sqlite3：
+
+**前置要求**：
+- Visual Studio Build Tools 或 Visual Studio（包含 C++ 工作负载）
+- Python 3.x
+
+**编译步骤**：
+```bash
+# 进入 better-sqlite3 目录并重新编译
+cd node_modules/better-sqlite3
+npx node-gyp rebuild
+cd ../..
+```
+
+**打包预编译文件（供团队使用）**：
+```bash
+# 在已编译的环境中运行打包脚本
+node scripts/package-sqlite-binary.js
+
+# 将生成的 prebuilt/ 目录提交到 Git，供其他成员使用
+```
 
