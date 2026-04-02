@@ -146,6 +146,11 @@ npm config set disturl https://npmmirror.com/dist
 # 删除并重新安装 better-sqlite3
 rm -rf node_modules/better-sqlite3
 npx pnpm install
+
+# 恢复到官方库镜像（可选）
+npm config delete registry
+npm config delete disturl
+
 ```
 
 
