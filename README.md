@@ -117,8 +117,8 @@ git clone https://gitee.com/aosne_development_team/cradle.git
 2. **初始化数据库**
 
 ```bash
-# 将 data.init 文件夹重命名为 data，即可完成数据库初始化
-mv data.init data
+# 将 data.init 文件夹复制为 data，即可完成数据库初始化
+cp -r data.init data
 ```
 
 3. **安装依赖**
@@ -131,7 +131,24 @@ npm install -g pnpm
 npx pnpm install
 ```
 
-3. **配置环境变量**
+4. **编译原生模块（Windows 用户必需）**
+
+> ⚠️ **注意**：如果在启动服务时遇到 `Could not locate the bindings file` 错误，需要手动编译 better-sqlite3 模块：
+
+```bash
+# 进入 better-sqlite3 目录并重新编译
+cd node_modules/better-sqlite3
+npx node-gyp rebuild
+
+# 返回项目根目录
+cd ../..
+```
+
+**前置要求**：
+- Windows: 需要安装 Visual Studio Build Tools 或 Visual Studio（包含 C++ 工作负载）
+- Python 3.x（用于 node-gyp）
+
+5. **配置环境变量**
 
 ```bash
 # 复制环境变量模板
@@ -140,26 +157,28 @@ cp .env.example .env
 # 编辑 .env 文件，配置必要参数
 ```
 
-4. **启动服务**
+6. **启动服务**
 
 ```bash
 # 启动 Gateway Master（主服务）
 npx pnpm run gateway:master
 
-# 启动 Cradle API Service 服务
+# 启动 Cradle API Service 服务（在另一个终端）
 npx pnpm run dev
 
-# 启动 Cradle 前端服务
+# 启动 Cradle 前端服务（在另一个终端）
 cd web/playground
 npx pnpm dev
 ```
 
 ### 访问应用
 
-- Cradle Web UI: http://localhost:5555
-- Cradle API Service： http://localhost:5320
-- Cradle Gateway Master： http://localhost:3000
-- Cradle Browser MCP： http://localhost:18791
+| 服务 | 地址 | 说明 |
+|------|------|------|
+| Cradle Web UI | http://localhost:5555 | 前端管理界面 |
+| Cradle API Service | http://localhost:5320/api/health | API 服务健康检测 |
+| Cradle Gateway Master | http://localhost:3000/health | 网关主服务健康检测 |
+| Cradle Browser MCP | http://localhost:18791/health | 浏览器 MCP 服务健康检测 |
 
 ## 项目结构
 
